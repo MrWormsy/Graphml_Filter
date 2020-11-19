@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="key0" for="node" attr.name="Country" attr.type="string" />
+  <key id="key1" for="node" attr.name="Name" attr.type="string" />
+  <key id="key2" for="node" attr.name="addAll" attr.type="int" />
+  <key id="key3" for="edge" attr.name="addCount" attr.type="int" />
+  <key id="key4" for="node" attr.name="addNum" attr.type="int" />
+  <key id="key5" for="node" attr.name="asNumber" attr.type="string" />
+  <key id="key6" for="node" attr.name="asTime" attr.type="int" />
+  <key id="key7" for="edge" attr.name="edgeTime" attr.type="int" />
+  <key id="key8" for="edge" attr.name="pathCount" attr.type="int" />
+  <key id="key9" for="node" attr.name="pathNum" attr.type="int" />
+  <key id="key10" for="edge" attr.name="prefCount" attr.type="int" />
+  <key id="key11" for="node" attr.name="prefixAll" attr.type="int" />
+  <key id="key12" for="node" attr.name="prefixNum" attr.type="int" />
+  <key id="key13" for="edge" attr.name="weight" attr.type="int" />
+  <graph id="G" edgedefault="undirected" parse.nodeids="canonical" parse.edgeids="canonical" parse.order="nodesfirst">
+    <node id="n0">
+      <data key="key0">US</data>
+      <data key="key1">LVLT-1</data>
+      <data key="key2">68</data>
+      <data key="key4">68</data>
+      <data key="key5">1</data>
+      <data key="key6">1388532157</data>
+      <data key="key9">0</data>
+      <data key="key11">12</data>
+      <data key="key12">12</data>
+    </node>
+    <node id="n1">
+      <data key="key0">US</data>
+      <data key="key1">UDEL-DCN</data>
+      <data key="key2">256</data>
+      <data key="key4">256</data>
+      <data key="key5">2</data>
+      <data key="key6">1388532157</data>
+      <data key="key9">0</data>
+      <data key="key11">1</data>
+      <data key="key12">1</data>
+    </node>
+    <node id="n2">
+      <data key="key0">RU</data>
+      <data key="key1">MIT-GATEWAYS</data>
+      <data key="key2">66356</data>
+      <data key="key4">66356</data>
+      <data key="key5">3</data>
+      <data key="key6">1388532143</data>
+      <data key="key9">0</data>
+      <data key="key11">37</data>
+      <data key="key12">37</data>
+    </node>
+    <node id="n3">
+      <data key="key0">RU</data>
+      <data key="key1">MIT-GATEWAYS</data>
+      <data key="key2">66356</data>
+      <data key="key4">66356</data>
+      <data key="key5">3</data>
+      <data key="key6">1388532143</data>
+      <data key="key9">0</data>
+      <data key="key11">37</data>
+      <data key="key12">37</data>
+    </node>
+    <node id="n4">
+      <data key="key0">FR</data>
+      <data key="key1">MIT-GATEWAYS</data>
+      <data key="key2">66356</data>
+      <data key="key4">66356</data>
+      <data key="key5">3</data>
+      <data key="key6">1388532143</data>
+      <data key="key9">0</data>
+      <data key="key11">37</data>
+      <data key="key12">37</data>
+    </node>
+    <node id="n5">
+      <data key="key0">JP</data>
+      <data key="key1">MIT-GATEWAYS</data>
+      <data key="key2">-1</data>
+      <data key="key4">66356</data>
+      <data key="key5">3</data>
+      <data key="key6">1388532143</data>
+      <data key="key9">0</data>
+      <data key="key11">37</data>
+      <data key="key12">37</data>
+    </node>
+    <edge id="e0" source="n0" target="n1">
+      <data key="key3">0</data>
+      <data key="key7">1388505602</data>
+      <data key="key8">1</data>
+      <data key="key10">0</data>
+      <data key="key13">1</data>
+    </edge>
+    <edge id="e1" source="n0" target="n2">
+      <data key="key3">0</data>
+      <data key="key7">1388505602</data>
+      <data key="key8">1</data>
+      <data key="key10">0</data>
+      <data key="key13">1</data>
+    </edge>
+    <edge id="e2" source="n1" target="n2">
+      <data key="key3">0</data>
+      <data key="key7">1388509687</data>
+      <data key="key8">92</data>
+      <data key="key10">0</data>
+      <data key="key13">1</data>
+    </edge>
+    <edge id="e3" source="n0" target="n3">
+      <data key="key3">0</data>
+      <data key="key7">1388505611</data>
+      <data key="key8">46</data>
+      <data key="key10">0</data>
+      <data key="key13">1</data>
+    </edge>
+    <edge id="e4" source="n3" target="n2">
+      <data key="key3">0</data>
+      <data key="key7">1388505601</data>
+      <data key="key8">92</data>
+      <data key="key10">0</data>
+      <data key="key13">1</data>
+    </edge>
+    <edge id="e5" source="n0" target="n5">
+      <data key="key3">0</data>
+      <data key="key7">1388505601</data>
+      <data key="key8">92</data>
+      <data key="key10">0</data>
+      <data key="key13">1</data>
+    </edge>
+  </graph>
+</graphml>
